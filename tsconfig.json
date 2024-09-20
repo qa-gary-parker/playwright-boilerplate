@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "target": "ESNext",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitAny": false
+    }
+}
