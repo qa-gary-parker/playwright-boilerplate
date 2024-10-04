@@ -12,7 +12,8 @@ This is an all-in-one boilerplate for Playwright - it supports many different qu
 - 🗄️ [Database](tests/database/readme.md)
 - 🔁 [Emulation](tests/emulation/readme.md) [ `npm run test-emulation` ]
 - 🏮 [Lighthouse](tests/lighthouse/readme.md)
-- 📱 [Mobile](tests/mobile/readme.md)
+- 📱 [Real Mobile](tests/mobile/readme.md) [ `npm run test-android` | ` npm run test-ios` ]
+- 📱 [Emulated Mobile](tests/mobile/readme.md)
 - ☁️ [SonarCloud](tests/sonarcloud/readme.md)
 - 👁️ [Visual](tests/visual/readme.md)
 - 🌐 [Web](tests/web/readme.md)

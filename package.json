@@ -8,6 +8,8 @@
     "test-accessibility": "npx playwright test --project accessibility",
     "test-api": "npx playwright test --project api",
     "test-component": "npx playwright test -c playwright-ct.config.ts",
+    "test-android": "npx playwright test -c appwright.config.ts --project android",
+    "test-ios": "npx playwright test -c appwright.config.ts --project ios",
     "test-emulation": "npx playwright test --project emulation",
     "test-headed": "npx playwright test --headed",
     "test-trace": "npx playwright test --trace on",
@@ -28,7 +30,8 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.47.1",
-    "@types/node": "^22.5.5"
+    "@types/node": "^22.5.5",
+    "appwright": "^0.1.1"
   },
   "dependencies": {
     "@axe-core/playwright": "^4.10.0",
