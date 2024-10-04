@@ -6,6 +6,9 @@
   "scripts": {
     "test": "npx playwright test",
     "test-accessibility": "npx playwright test --project accessibility",
+    "test-api": "npx playwright test --project api",
+    "test-component": "npx playwright test -c playwright-ct.config.ts",
+    "test-emulation": "npx playwright test --project emulation",
     "test-headed": "npx playwright test --headed",
     "test-trace": "npx playwright test --trace on",
     "test-title": "npx playwright test -g",
@@ -18,8 +21,7 @@
     "update": " npm install -D @playwright/test@latest && npx playwright install --with-deps",
     "version": "npx playwright --version",
     "codegen": "npx playwright codegen",
-    "codegen-mobile": "npx playwright codegen --device=\"iPhone 13\"",
-    "test-ct": "playwright test -c playwright-ct.config.ts"
+    "codegen-mobile": "npx playwright codegen --device=\"iPhone 13\""
   },
   "keywords": [],
   "author": "",

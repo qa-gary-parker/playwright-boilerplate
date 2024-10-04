@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { createHtmlReport } from 'axe-html-reporter';
 const fs = require('fs');
 
-const baseUrl = 'https://paddypower.com/';
+const baseUrl = 'https://www.google.com/';
 
 test.describe('homepage', () => {
   test('should not have any automatically detectable accessibility issues', async ({ page }) => {

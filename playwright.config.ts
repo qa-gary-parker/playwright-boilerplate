@@ -34,17 +34,31 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'],
-        ignoreHTTPSErrors: true,
-       },
-    },
+    // {
+    //   name: 'chromium',
+    //   use: { ...devices['Desktop Chrome'],
+    //     ignoreHTTPSErrors: true,
+    //    },
+    // },
 
     {
       name: 'accessibility',
       use: { ...devices['Desktop Chrome'] },
-      testMatch: '**/accessibility-check.spec.ts',
+      testMatch: 'accessibility/accessibility-check.spec.ts',
+    },
+
+    {
+      name: 'api',
+      // use: { ...devices['Desktop Chrome'] },
+      testMatch: 'api/api-check.spec.ts',
+    },
+
+    {
+      name: 'emulation',
+      use: { ...devices['Desktop Chrome'], 
+      headless: true
+    },
+      testMatch: 'emulation/emulation-check.spec.ts',
     },
 
     // {

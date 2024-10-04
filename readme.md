@@ -4,10 +4,11 @@ This is an all-in-one boilerplate for Playwright - it supports many different qu
 
 ---
 
-- ♿️ [Accessibility](tests/accessibility/readme.md)
-- 📡 [API](tests/api/readme.md)
-- 🧩 [Component](tests/component/readme.md)
-- 🗄️ [Database](tests//database/readme.md)
+- ♿️ [Accessibility](tests/accessibility/readme.md) [ `npm run test-accessibility` ]
+- 📡 [API](tests/api/readme.md) [ `npm run test-api` ]
+- 🧩 [Component](tests/component/readme.md) [ `npm run test-component` ]
+- 🗄️ [Database](tests/database/readme.md)
+- 🔁 [Emulation](tests/emulation/readme.md) [ `npm run test-emulation` ]
 - 🏮 [Lighthouse](tests/lighthouse/readme.md)
 - 📱 [Mobile](tests/mobile/readme.md)
 - ☁️ [SonarCloud](tests/sonarcloud/readme.md)
