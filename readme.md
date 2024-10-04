@@ -4,6 +4,8 @@ This is an all-in-one boilerplate for Playwright - it supports many different qu
 
 ---
 
+## Quality checks
+
 - ♿️ [Accessibility](tests/accessibility/readme.md) [ `npm run test-accessibility` ]
 - 📡 [API](tests/api/readme.md) [ `npm run test-api` ]
 - 🧩 [Component](tests/component/readme.md) [ `npm run test-component` ]
@@ -20,3 +22,9 @@ This is an all-in-one boilerplate for Playwright - it supports many different qu
 - 🚀 [Pipelines](../pipelines/readme.md)
 
 ---
+
+## Contributors
+
+<a href="https://github.com/qa-gary-parker/playwright-boilerplate/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=qa-gary-parker/playwright-boilerplate" />
+</a>
