@@ -11,6 +11,7 @@
     "test-android": "npx playwright test -c appwright.config.ts --project android",
     "test-ios": "npx playwright test -c appwright.config.ts --project ios",
     "test-emulation": "npx playwright test --project emulation",
+    "test-lighthouse": "npx playwright test --project lighthouse",
     "test-headed": "npx playwright test --headed",
     "test-trace": "npx playwright test --trace on",
     "test-title": "npx playwright test -g",

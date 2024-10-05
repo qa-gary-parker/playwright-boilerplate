@@ -61,6 +61,11 @@ export default defineConfig({
       testMatch: 'emulation/emulation-check.spec.ts',
     },
 
+    {
+      name: 'lighthouse',
+      testMatch: 'lighthouse/lighthouse-check.spec.ts',
+    },
+
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
