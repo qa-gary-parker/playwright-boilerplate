@@ -4,7 +4,7 @@ This is an all-in-one boilerplate for Playwright - it supports many different qu
 
 ---
 
-## Quality checks
+## Quality Checks
 
 - ♿️ [Accessibility](tests/accessibility/readme.md) [ `npm run test-accessibility` ]
 - 📡 [API](tests/api/readme.md) [ `npm run test-api` ]
