@@ -1,9 +1,11 @@
 // In appwright.config.ts
 import { defineConfig, Platform } from "appwright";
 export default defineConfig({
+  testDir: './tests/mobile/',
   projects: [
     {
       name: "android",
+      testMatch: 'mobile/mobile-real-check.spec.ts',
       use: {
         platform: Platform.ANDROID,
         device: {
@@ -14,6 +16,7 @@ export default defineConfig({
     },
     {
       name: "ios",
+      testMatch: 'mobile/mobile-real-check.spec.ts',
       use: {
         platform: Platform.IOS,
         device: {

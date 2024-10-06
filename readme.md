@@ -9,13 +9,11 @@ This is an all-in-one boilerplate for Playwright - it supports many different qu
 - ♿️ [Accessibility](tests/accessibility/readme.md) [ `npm run test-accessibility` ]
 - 📡 [API](tests/api/readme.md) [ `npm run test-api` ]
 - 🧩 [Component](tests/component/readme.md) [ `npm run test-component` ]
-- 🗄️ [Database](tests/database/readme.md)
 - 🔁 [Emulation](tests/emulation/readme.md) [ `npm run test-emulation` ]
-- 🏮 [Lighthouse](tests/lighthouse/readme.md)
+- 🏮 [Lighthouse](tests/lighthouse/readme.md) [ `npm run test-lighthouse` ]
 - 📱 [Real Mobile](tests/mobile/readme.md) [ `npm run test-android` | ` npm run test-ios` ]
-- 📱 [Emulated Mobile](tests/mobile/readme.md)
-- ☁️ [SonarCloud](tests/sonarcloud/readme.md)
-- 👁️ [Visual](tests/visual/readme.md)
+- 📱 [Emulated Mobile](tests/mobile/readme.md) [ `npm run test-mobile-emulation` ]
+- 👁️ [Visual](tests/visual/readme.md) [ `npm tun test-visual` ]
 - 🌐 [Web](tests/web/readme.md)
 
 ---

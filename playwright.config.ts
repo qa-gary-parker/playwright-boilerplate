@@ -66,6 +66,16 @@ export default defineConfig({
       testMatch: 'lighthouse/lighthouse-check.spec.ts',
     },
 
+    {
+      name: 'mobile-emulation',
+      testMatch: 'mobile/mobile-emulated-check.spec.ts',
+    },
+
+    {
+      name: 'visual',
+      testMatch: 'visual/visual-check.spec.ts',
+    },
+    
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
