@@ -14,7 +14,7 @@ This is an all-in-one boilerplate for Playwright - it supports many different qu
 - 📱 [Real Mobile](tests/mobile/readme.md) [ `npm run test-android` | ` npm run test-ios` ]
 - 📱 [Emulated Mobile](tests/mobile/readme.md) [ `npm run test-mobile-emulation` ]
 - 👁️ [Visual](tests/visual/readme.md) [ `npm tun test-visual` ]
-- 🌐 [Web](tests/web/readme.md)
+- 🌐 [Web](tests/web/readme.md) [ `npm run test-web` ]
 
 ---
 

@@ -76,6 +76,11 @@ export default defineConfig({
       testMatch: 'visual/visual-check.spec.ts',
     },
     
+    {
+      name: 'web',
+      testMatch: 'web/web-check.spec.ts',
+    },
+
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
